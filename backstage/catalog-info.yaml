@@ -8,7 +8,7 @@ spec:
   lifecycle: integration
   owner: dekt-dev-team2
   system: devx-mood
-  subcomponentOf: mood-analyzer
+  subcomponentOf: mood-sensors
   dependsOn: 
     - resource:brownfield
     - resource:reading
