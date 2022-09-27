@@ -8,10 +8,10 @@ spec:
   lifecycle: integration
   owner: dekt-dev-team2
   system: devx-mood
-  subcomponentOf: mood-sensors
   dependsOn: 
     - resource:brownfield
     - resource:reading
   consumesApis:
     - datacheck-apis
     - sentiment-apis
+    - mood-sensors-apis
