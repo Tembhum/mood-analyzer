@@ -3,13 +3,14 @@ kind: Workload
 metadata:
   name: legacy-mood
   labels:
-    apps.tanzu.vmware.com/workload-type: dekt-worker
+    apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: mood-analyzer
 spec:
   #source code
   source:
     git:
-      url: https://github.com/dektlong/mood-analyzer
+      url: https://github.com/Tembhum/mood-analyzer
       ref:
         branch: main
   #data services

@@ -6,7 +6,7 @@ metadata:
 spec:
   type: service
   lifecycle: integration
-  owner: dekt-dev-team2
+  owner: hope-dev-team2
   system: devx-mood
   subcomponentOf: mood-sensors
   dependsOn: 
