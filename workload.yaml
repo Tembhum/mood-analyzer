@@ -1,7 +1,8 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: legacy-mood
+  # name: legacy-mood
+  name: mood-analyzer
   labels:
     apps.tanzu.vmware.com/workload-type: web
     apps.tanzu.vmware.com/has-tests: "true"
